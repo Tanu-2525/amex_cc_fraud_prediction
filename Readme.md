@@ -79,7 +79,7 @@ Particle Swarm Optimization (PSO): PSO is a metaheuristic optimization algorithm
 4. Evaluate the performance of the ensemble predictions using appropriate metrics.
 
 
-## REAL-TIME FRAUD DETECTION ENVIORNMENT
+## Real-Time Fraud Detection Enviornment
 A robust Architecture is built to enable real-time fraud detection. By leveraging a Flask API, Kafka producer, Kafka consumer, and machine learning predictions, the system aims to quickly identify fraudulent patterns and anomalies as they occur. The immediate storage of event data and corresponding predictions in the PostgreSQL database allows for comprehensive record-keeping and retrospective analysis. This helps in refining the fraud detection system and taking timely actions to mitigate fraud.
 
 
