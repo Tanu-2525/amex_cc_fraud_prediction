@@ -15,6 +15,7 @@ Credit card fraud detection is a critical task in maintaining the security and i
 9. [Train the ARF model](#train-the-arf-model)
 10. [Generating LSTM predictions for new Data](#generating-lstm-predictions-for-new-data)
 11. [Make predictions using ensemble](#make-predictions-using-ensemble)
+12. [Real-time Fraud Detection Enviornment](#REAL-TIME-FRAUD-DETECTION-ENVIORNMENT)
 
 
 ## Exploratory Data Analysis
@@ -78,4 +79,7 @@ Particle Swarm Optimization (PSO): PSO is a metaheuristic optimization algorithm
 4. Evaluate the performance of the ensemble predictions using appropriate metrics.
 
 
-This README provides an overview of the steps involved in data preprocessing, training LSTM and ARF models, generating predictions, and using ensemble techniques
+## REAL-TIME FRAUD DETECTION ENVIORNMENT
+A robust Architecture is built to enable real-time fraud detection. By leveraging a Flask API, Kafka producer, Kafka consumer, and machine learning predictions, the system aims to quickly identify fraudulent patterns and anomalies as they occur. The immediate storage of event data and corresponding predictions in the PostgreSQL database allows for comprehensive record-keeping and retrospective analysis. This helps in refining the fraud detection system and taking timely actions to mitigate fraud.
+
+
