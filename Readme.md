@@ -48,34 +48,21 @@ Particle Swarm Optimization (PSO): PSO is a metaheuristic optimization algorithm
 5. Monitor the training process and adjust hyperparameters if needed.
 6. Save the trained LSTM model for future use.
 
-## Generate LSTM predictions:
-1. Load the saved LSTM model.
-2. Prepare the testing data by formatting it into appropriate input sequences.
-3. Generate predictions using the trained LSTM model.
-4. Evaluate the performance of the LSTM predictions using appropriate metrics.
-
-## Combine LSTM predictions with original features:
-1. Retrieve the original features from the testing data.
-2. Concatenate the LSTM predictions with the original features.
-3. Perform any necessary post-processing on the combined data.
-
 ## Train the ARF model:
-1. Set up the ARF (AutoRegressive Forest) model architecture.
+1. Set up the ARF (Adaptive Random Forest) model architecture.
 2. Prepare the training data by formatting it into appropriate input-output sequences.
 3. Initialize the ARF model with the defined architecture.
 4. Train the ARF model using the training data.
 5. Save the trained ARF model for future use.
 
-## Generating LSTM predictions for new Data:
-1. Load the saved LSTM model.
-2. Prepare the new data by formatting it into appropriate input sequences.
-3. Generate predictions for the new data using the trained LSTM model.
+## Generating LSTM & ARF predictions for Incoming Data:
+1. Load the saved LSTM and ARF models.
+3. Generate predictions for the new incoming data using both the models.
 
-
-## Make predictions using Weighted Voting:
-1. LSTM was given weightage of 0.6 and ARF was given 0.4
-2. Use weighted voting as an ensemble method
-3. Generate final predictions using the ensemble of LSTM and ARF models.
+## Make Final predictions using Weighted Voting:
+1. Weighted Voting is used as an ensemble method.
+2. LSTM is given weightage of 0.6 and ARF is given a weightage of 0.4
+3. Generate final predictions using the ensemble method.
 4. Evaluate the performance of the ensemble predictions using appropriate metrics.
 
 
