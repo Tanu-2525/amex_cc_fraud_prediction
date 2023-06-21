@@ -7,7 +7,7 @@ Credit card fraud detection is a critical task in maintaining the security and i
 1. [Credit Card Fraud Detection](#credit-card-fraud-detection)
 2. [Exploratoy Data Analysis](#exploratory-data-analysis)
 3. [Data Preprocessing](#data-preprocessing)
-4. [Over Sampling](#over-sampling)
+4. [Balancing the Dataset](#Balancing-the-Dataset)
 5. [Feature Selection](#feature-selection)
 6. [Train the LSTM model](#train-the-lstm-model)
 7. [Generate LSTM predictions](#generate-lstm-predictions)
@@ -29,7 +29,7 @@ GeoHashing: GeoHashing is used to encode and index geographical coordinates, suc
 
 RFM: RFM (Recency, Frequency, Monetary) is performed to derive meaningful features from the transaction data. RFM metrics capture the recency of transactions, the frequency of transactions, and the monetary value of transactions, along with the risk and credit score of merchants and categories.We have used this to gain a better understanding of customer behaviour and identify segments with different characteristics. It provides insights into customer value and engagement by analysing three key dimensions: recency, frequency, and monetary value.
 
-## Over Sampling
+## Balancing the Dataset
 Credit card fraud detection involves dealing with imbalanced datasets where fraudulent transactions are significantly less common than legitimate transactions. To address this class imbalance issue, the Adaptive Synthetic Sampling (ADASYN) technique is used. ADASYN generates synthetic instances of the minority class (fraudulent transactions) based on their feature distributions. This approach helps in creating a more representative dataset for training the model and improves the performance in detecting credit card fraud instances.
 
 ## Feature Selection
