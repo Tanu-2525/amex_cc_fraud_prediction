@@ -1,6 +1,7 @@
 ## Credit Card Fraud Detection
 Credit card fraud detection is a critical task in maintaining the security and integrity of financial transactions. This repository provides an overview of a comprehensive credit card fraud detection system that incorporates various techniques and models to detect fraudulent activities.
 
+#### Disclaimer: Due to the substantial size of certain model files, Git LFS (Large File Storage) was utilized to compress and store these large files. To ensure the smooth running of the project, please Clone the repository and use "git lfs fetch" in order fetch the large files actual contents.
 
 # Index
 
